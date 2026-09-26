@@ -1,0 +1,14 @@
+let str = "kabsscddeafb";
+let ans = "";
+function getU(str) {
+  ans = "";
+  for (let i = 0; i < str.length; i++) {
+    let curr = str[i];
+    if (ans.indexOf(curr) == -1) {
+      ans = ans + curr;
+    }
+  }
+}
+getU(str);
+console.log(ans);
+
