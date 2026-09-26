@@ -1,0 +1,10 @@
+let start = 5;
+let end =10;
+
+function gnrrand(start,end){
+  let diff = end-start;
+  return Math.floor(Math.random()*diff)+start;
+}
+
+let ans = gnrrand(start,end);
+console.log(ans);
